@@ -1,13 +1,13 @@
-import React from "react";
-import { Flex, Heading } from "@chakra-ui/core";
+import React from 'react';
+import { Flex, Heading } from '@chakra-ui/core';
+
+const defaultProps = {
+  title: 'with-chakra-ui',
+};
 
 type HeroProps = {
   title: string;
 } & typeof defaultProps;
-
-const defaultProps = {
-  title: "with-chakra-ui"
-};
 
 export const Hero = ({ title }: HeroProps) => (
   <Flex justifyContent="center" alignItems="center" height="100vh">
@@ -16,3 +16,5 @@ export const Hero = ({ title }: HeroProps) => (
 );
 
 Hero.defaultProps = defaultProps;
+
+export default Hero;

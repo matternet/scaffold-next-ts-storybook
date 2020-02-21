@@ -1,7 +1,6 @@
-import React from "react";
-import { Link as ChakraLink, Button } from "@chakra-ui/core";
-
-import { Container } from "./Container";
+import React from 'react';
+import { Link as ChakraLink, Button } from '@chakra-ui/core';
+import { Container } from './Container';
 
 export const CTA = () => (
   <Container
@@ -30,3 +29,5 @@ export const CTA = () => (
     </ChakraLink>
   </Container>
 );
+
+export default CTA;
