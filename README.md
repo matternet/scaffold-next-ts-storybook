@@ -4,6 +4,10 @@ This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra
 
 We are connecting the Next.js `_app.js` with `chakra-ui`'s Theme and ColorMode containers so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
 
+# TODO:
+
+https://github.com/auth0/nextjs-auth0/tree/master/examples/api-call-example
+
 ## Deploy your own
 
 Deploy the example using [ZEIT Now](https://zeit.co/now):
