@@ -7,6 +7,7 @@ import { ThemeProvider, CSSReset, ColorModeProvider } from '@chakra-ui/core';
 import theme from '../theme';
 
 Router.events.on('routeChangeStart', url => {
+  // eslint-disable-next-line no-console
   console.log(`Loading: ${url}`);
   NProgress.start();
 });
