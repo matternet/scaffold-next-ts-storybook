@@ -11,12 +11,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc --noEmit && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "eslint --fix",
+      "eslint --cache --fix",
       "git add"
     ]
   },
@@ -50,6 +50,8 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.4.0",
     "fork-ts-checker-webpack-plugin": "^4.0.4",
+    "husky": ">=4",
+    "lint-staged": ">=10",
     "prettier": "^1.19.1",
     "react-docgen-typescript-loader": "^3.6.0",
     "ts-loader": "^6.2.1",
