@@ -12,6 +12,7 @@
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
@@ -40,6 +41,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@next/bundle-analyzer": "^9.2.2",
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addon-backgrounds": "^5.3.13",
