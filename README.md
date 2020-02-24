@@ -63,3 +63,8 @@ query getSingleLaunch {
   }
 }
 ```
+
+### Other
+
+- dotenv-flow
+  - https://github.com/kerimdzhanov/dotenv-flow

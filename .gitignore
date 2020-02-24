@@ -18,9 +18,13 @@
 
 # misc
 .DS_Store
-.env*
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# env
+# https://github.com/kerimdzhanov/dotenv-flow#files-under-version-control
+.env.local
+.env.*.local
