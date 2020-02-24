@@ -24,7 +24,7 @@ module.exports = {
       'error',
       {
         // Add to the following list in order to allow import of devDeps
-        devDependencies: ['.storybook/**', 'stories/**'],
+        devDependencies: ['next.config.js', '.storybook/**', 'stories/**'],
       },
     ],
   },

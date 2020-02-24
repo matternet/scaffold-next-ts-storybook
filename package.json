@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "analyze": "cross-env ANALYZE=true yarn build"
   },
   "husky": {
     "hooks": {
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@next/bundle-analyzer": "^9.2.2",
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addon-links": "^5.3.13",
     "@storybook/addons": "^5.3.13",
@@ -50,6 +52,7 @@
     "@typescript-eslint/parser": "^2.20.0",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.1.1",
+    "cross-env": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-typescript": "^7.0.0",
     "eslint-config-prettier": "^6.10.0",
