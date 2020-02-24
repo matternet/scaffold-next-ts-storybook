@@ -9,13 +9,13 @@ import {
   ListIcon,
   ListItem,
 } from '@chakra-ui/core';
-
 import { Hero } from '../components/Hero';
 import { Container } from '../components/Container';
 import { Main } from '../components/Main';
 import { DarkModeSwitch } from '../components/DarkModeSwitch';
 import { CTA } from '../components/CTA';
 import { Footer } from '../components/Footer';
+import { withApollo } from '../lib/apollo';
 
 const Index = () => (
   <Container>
@@ -61,4 +61,4 @@ const Index = () => (
   </Container>
 );
 
-export default withTheme(Index);
+export default withApollo({ ssr: true })(withTheme(Index));

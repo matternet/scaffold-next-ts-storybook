@@ -25,8 +25,8 @@ class App extends NextApp {
           <link rel="stylesheet" type="text/css" href="/nprogress.css" />
         </Head>
         <ThemeProvider theme={theme}>
-          <CSSReset />
           <ColorModeProvider>
+            <CSSReset />
             <Component />
           </ColorModeProvider>
         </ThemeProvider>
