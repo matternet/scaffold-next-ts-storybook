@@ -9,7 +9,6 @@ import {
   ListIcon,
   ListItem,
 } from '@chakra-ui/core';
-
 import { Hero } from '../components/Hero';
 import { Container } from '../components/Container';
 import { Main } from '../components/Main';
