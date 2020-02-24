@@ -67,4 +67,9 @@ query getSingleLaunch {
 ### Other
 
 - dotenv-flow
+
   - https://github.com/kerimdzhanov/dotenv-flow
+
+- Look into:
+  - https://github.com/illinois/next-page-transitions
+  - https://github.com/lingui/js-lingui
